@@ -1,0 +1,25 @@
+//Programmes
+1.Hello, World.java prints "Hello, World"
+//////////////////////////////////////////////////////////////////////////////
+2.  HiFour.java that takes four first names as command-line arguments
+and prints a proper sentence with the names in the reverse of the order given.
+////////////////////////////////////////////////////////////////////////////////
+3. Ordered.java that takes three int command-line arguments, x, y, and z.
+Define a boolean variable whose value is true if the three values
+are either in strictly ascending order (x < y < z) or in
+strictly descending order (x > y > z), and false otherwise.
+////////////////////////////////////////////////////////////////////////////////
+4. GreatCircle.java that takes four double command-line arguments x1, y1, x2,
+ and y2 (the latitude and longitude, in degrees, of two points on the surface
+ of the earth) and prints the great-circle distance (in nautical miles)
+ between them. Use the following formula, which is derived from the spherical
+ law of cosines:
+
+ distance=60arccos(sinx1sinx2+cosx1cosx2cos(y1−y2))
+
+ **The great circle distance is the shortest distance between two points on the
+ surface of a sphere if you are constrained to travel along the surface.
+//////////////////////////////////////////////////////////////////////////////
+Redo Ordered.java without using the comparison operators (<, <=, >, and >=).
+Redo RGBtoCMYK.java without using Math.max(). Do not use if statements for
+either one
